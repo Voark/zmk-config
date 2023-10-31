@@ -1,0 +1,3 @@
+config SHIELD_4ORNE
+    def_bool $(shields_list_contains, 40rne)
+    
