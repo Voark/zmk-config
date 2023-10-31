@@ -1,0 +1,6 @@
+if SHIELD_4ORNE
+
+config ZMK_KEYBOARD_NAME
+    default "4orne"
+
+endif
