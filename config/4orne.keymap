@@ -74,9 +74,9 @@
 
         layer_3 {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 2  &bt BT_SEL 3  &none        &none  &none       &none             &none         &none       &none  &sys_reset
-&none  &none         &none         &none         &Screenshot  &none  &kp LEFT    &kp DOWN          &kp UP        &kp RIGHT   &none  &none
-&none  &none         &none         &none         &none        &none  &kp K_PREV  &kp C_VOL_DN      &kp C_VOL_UP  &kp K_NEXT  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 2  &bt BT_SEL 3  &none        &none  &none       &none             &none         &none       &bt BT_CLR  &sys_reset
+&none  &none         &none         &none         &Screenshot  &none  &kp LEFT    &kp DOWN          &kp UP        &kp RIGHT   &none       &none
+&none  &none         &none         &none         &none        &none  &kp K_PREV  &kp C_VOL_DN      &kp C_VOL_UP  &kp K_NEXT  &none       &none
                                    &none         &none        &none  &none       &kp K_PLAY_PAUSE  &none
             >;
         };
